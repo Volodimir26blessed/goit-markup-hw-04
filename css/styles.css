@@ -58,7 +58,10 @@ button {
   margin-right: 50px;
 }
 
-
+.navigation{
+ align-items: center;
+ 
+}
 .reset-point{
   align-items: center;
   display: flex;
@@ -93,6 +96,7 @@ border-bottom: 1px solid #ECECEC;
 }
 
 .mail-tel{
+  display: flex;
   margin-left: auto;
   align-items: center;
 }
@@ -241,7 +245,6 @@ border-bottom: 1px solid #ECECEC;
 
 /*скидывает точки со списков li*/
 .reset-point {
- 
   list-style: none;
 }
 
@@ -296,6 +299,7 @@ address {
 }
 
 .mail{
+  display: flex;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -303,12 +307,14 @@ address {
   letter-spacing: 0.02em;
 
   color: var(--second-color);
+  justify-content: center;
 }
 .mail:hover{
   color: var(--color-accent);
 }
 
 .tel {
+  display: flex;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -358,13 +364,11 @@ address {
 }
 .button {
     display: inline-block;
-
     background-color: var(--color-accent);
-
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    border: 0px;
     cursor: pointer;
-
     padding: 10px 32px;
     font-family: Roboto;
     font-style: normal;
@@ -588,6 +592,11 @@ border-radius: 50%;
 
   width: 170px;
   height: 92px;
+}
+
+.imeges-claints-logo{
+  width: 106px;
+  height: 60px;
 }
 
 .imeges-claints-logo{
